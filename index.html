@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Main</title>
 
     <!-- Custom links -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sidebar-menu.css">
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,39 +23,151 @@
     <![endif]-->
   </head>
   <body>
-      <div class="custom-container">
-        <div class="custom-header">
+    <div class="custom-container">
+      <div class="header">
           <nav class="custom-navbar">
             <div>
                 <a class="navbar-brand" href="#">
-                <img src="img/vk-logo.png" alt="" width="23" height="23" class="d-inline-block custom">
+                <img src="img/header/vk-logo.png" alt="" width="26" height="26" class="d-inline-block custom">
                 вконтакте
                 </a>
                 <input class=custom-search type="search" placeholder="Поиск" aria-label="Search">
             </div>
             <a class="notifications" href="#">
-              <img src="img/bell.png" height="50" alt="">
+              <img src="img/header/bell.png" height="50" alt="">
             </a>
             <div class=player>
               <button class="player-content">
-                <a href=""><img class="player-control-button" src="img/prev.png" width="17" height="17" alt=""></a>
-                <a href=""><img class="player-control-button" src="img/pause.png" width="15" height="17" alt=""></a>
-                <a href=""><img class="player-control-button" src="img/next.png" width="17" height="17" alt=""></a>
+                <a href=""><img class="player-control-button" src="img/header/prev.png" width="17" height="17" alt=""></a>
+                <a href=""><img class="player-control-button" src="img/header/pause.png" width="15" height="17" alt=""></a>
+                <a href=""><img class="player-control-button" src="img/header/next.png" width="17" height="17" alt=""></a>
                 <div class="song-name">Angèle - Ta reine</div>
               </button>
             </div>
             <div class=profile-block>
               <a class="profile-link" href="">
-              Артём
-              <img src="img/profile-img.jpg" height="33px" class="profile-img" alt="">
-              <img src="img/dropdown-arrow.png" height="8px" alt="">
-            </a>
+                Артём
+                <img src="img/header/profile-img.jpg" height="33px" class="profile-img" alt="">
+                <img src="img/header/dropdown-arrow.png" height="8px" alt="">
+              </a>
             </div>
-            
-        </nav>
-        </div>
-        
+          </nav>
       </div>
+      <div class="page">
+        <div class="sidebar">
+            <ol class=sidebar-menu>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/my-page.png" alt="">Моя страница
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/news.png" alt="">Новости
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/messages.png" alt="">Мессенджер
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/friends.png" alt="">Друзья
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/groupes.png" alt="">Сообщества
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/photo.png" alt="">Фотографии
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/music.png" alt="">Музыка
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/video.png" alt="">Видео
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/clips.png" alt="">Клипы
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/games.png" alt="">Игры
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/ads.png" alt="">Объявления
+                  </div>
+                </a>
+              </li>
+              <hr>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/gadjets.png" alt="">Мини-приложения
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/job.png" alt="">Работа
+                  </div>
+                </a>
+              </li>
+              <hr>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/bookmarks.png" alt="">Закладки
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class=sidebar-menu-link>
+                    <img class=sidebar-icon src="img/sidebar/files.png" alt="">Файлы
+                  </div>
+                </a>
+              </li>
+            </ol>
+        </div>
+      </div>
+    </div>
+
     
       
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

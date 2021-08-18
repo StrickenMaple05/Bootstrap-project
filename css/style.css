@@ -1,0 +1,34 @@
+:root {
+    --header-bg: #fff;
+    --navbar-hover-bg: #f5f6f8;
+    --sidebar-button-hover-bg: #e5e7eb;
+}
+
+body {
+    background-color: #edeef0 !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+hr {
+    color: #909499 !important;
+    margin-top: 8px !important;
+}
+.custom-container {
+    position: absolute;
+    width: 100%;
+    min-width: 990px;
+    display: flex;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.page {
+    height: 100%;
+    width: 990px;
+    position: absolute;
+    justify-self: center;
+}
